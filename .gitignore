@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+venv/
+*.csv
+!sample_output/sample_scraped_reviews.csv
