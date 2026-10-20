@@ -4,6 +4,15 @@ Reference implementations for the data collection methodology used to build the 
 
 > **Note:** These are reference/template implementations demonstrating the collection approach across the three source platforms (IMDb, Reddit, YouTube). They are not the exact original scripts used, which were not preserved from the original collection process — adapt movie/video IDs, subreddits, and queries to your own targets.
 
+<p align="center">
+  <a href="https://huggingface.co/datasets/AvinabhDutta-Dev/assamese-movie-reviews-sentiment">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Dataset-yellow?logo=huggingface" alt="Assamese Movie Reviews Sentiment Dataset on Hugging Face" />
+  </a>
+  <a href="https://github.com/AvinabhDutta-Dev/assamese-sentiment-analysis">
+    <img src="https://img.shields.io/badge/Related%20Project-Sentiment%20Models-2368a0?logo=github&logoColor=white" alt="Related Assamese sentiment analysis models repository" />
+  </a>
+</p>
+
 ## Sources Covered
 
 | Script | Platform | Auth Required |
@@ -22,11 +31,11 @@ pip install requests bs4 praw python-dotenv google-api-python-client
 
 | Package | Used for |
 |---|---|
-| `requests` | HTTP requests (IMDb scraper) |
-| `bs4` (BeautifulSoup) | HTML parsing (IMDb scraper) |
-| `praw` | Reddit API wrapper (Reddit scraper) |
-| `python-dotenv` | Loading credentials from `.env` (Reddit & YouTube scrapers) |
-| `google-api-python-client` | YouTube Data API access (YouTube scraper) |
+| `requests` | HTTP requests in the IMDb reference scraper |
+| `beautifulsoup4` | HTML parsing in the IMDb reference scraper |
+| <img src="https://cdn.simpleicons.org/reddit/FF4500" alt="Reddit" width="18" height="18" /> `praw` | Reddit API access for the Reddit reference scraper |
+| `python-dotenv` | Loading API credentials from the local `.env` file |
+| <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" width="18" height="18" /> `google-api-python-client` | YouTube Data API v3 access |
 
 Or simply install everything at once via the included requirements file:
 ```bash
