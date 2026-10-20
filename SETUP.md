@@ -68,7 +68,7 @@ python scripts/reddit_scraper.py
 python scripts/youtube_scraper.py
 ```
 
-Both scripts output CSVs matching the project's baseline schema (`ID`, `Reviews`, `Sentiment`), with `Sentiment` left blank for subsequent manual annotation — consistent with the two-annotator labeling process described in the dataset card.
+All three scripts output CSVs matching the project's baseline schema (`ID`, `Reviews`, `Sentiment`), with `Sentiment` left blank for subsequent manual annotation — consistent with the two-annotator labeling process described in the dataset card.
 
 ## Notes
 
