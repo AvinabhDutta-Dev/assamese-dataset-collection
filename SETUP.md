@@ -48,6 +48,7 @@ Open `.env` and fill in:
 REDDIT_CLIENT_ID=<your client id>
 REDDIT_CLIENT_SECRET=<your client secret>
 REDDIT_USER_AGENT=AssameseSentimentAnalysisScraper/1.0 by /u/<your reddit username>
+YOUTUBE_API_KEY=<your YouTube Data API key>
 ```
 
 ## Step 5: Run the scrapers
