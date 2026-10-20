@@ -34,7 +34,7 @@ Reference implementations for the data collection methodology used to build the 
 Install the required packages before running any script:
 
 ```bash
-pip install requests bs4 praw python-dotenv google-api-python-client
+pip install requests beautifulsoup4 praw python-dotenv google-api-python-client
 ```
 
 | Package | Used for |
