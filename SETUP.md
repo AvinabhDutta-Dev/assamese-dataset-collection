@@ -73,4 +73,4 @@ Both scripts output CSVs matching the project's baseline schema (`ID`, `Reviews`
 
 - IMDb's page structure changes periodically — the scraper's CSS selectors may need updates if scraping breaks.
 - Respect each platform's Terms of Service and rate limits when collecting data. The included `time.sleep()` delays are a minimum courtesy, not a guarantee of compliance.
-- YouTube comment collection (the third source used in the original dataset) is not included here, as it requires the YouTube Data API and OAuth setup — a template can be added if useful.
+- `scripts/youtube_scraper.py` is included as a reference template and requires a `YOUTUBE_API_KEY` in `.env`. It uses the YouTube Data API v3 API key flow; OAuth setup is not required by this script. API availability, quota limits, video settings, and comment availability can affect results.
