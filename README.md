@@ -1,3 +1,11 @@
+<p align="center">
+  <img
+    src="docs/images/assamese-dataset-collection-hero.png"
+    alt="Assamese dataset collection reference scripts for IMDb, Reddit and YouTube, with raw CSV output and subsequent manual annotation"
+    width="100%"
+  />
+</p>
+
 # Assamese Dataset Collection Scripts
 
 Reference implementations for the data collection methodology used to build the [Assamese Movie Reviews Sentiment Dataset](https://huggingface.co/datasets/AvinabhDutta-Dev/assamese-movie-reviews-sentiment) — an original, dual-annotated dataset of Assamese-language movie and drama reviews.
