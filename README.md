@@ -29,6 +29,8 @@ Reference implementations for the data collection methodology used to build the 
 | `reddit_scraper.py` | Reddit r/assam (Romanized Assamese) | Yes — Reddit API |
 | `youtube_scraper.py` | YouTube comments (mixed script/English) | Yes — YouTube Data API |
 
+> **Note:** The scripts are reference templates. They do not automatically verify that collected text is Assamese; language and data quality should be checked during preprocessing.
+
 ## Installation
 
 Install the required packages before running any script:
